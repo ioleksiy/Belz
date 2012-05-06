@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package >
+    <metadata>
+        <id>Belz</id>
+        <version>1.0.0</version>
+        <authors>Oleksii Glib</authors>
+        <owners>Oleksii Glib</owners>
+        <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
+        <projectUrl>https://github.com/acropolium/Belz</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Belz is a .Net open source engine for parallel workers processing</description>
+        <copyright>Copyright 2012</copyright>
+        <dependencies>
+            <dependency id="System.Json" />
+            <dependency id="Belz.QueueProvider" />
+        </dependencies>
+        <tags>parallel worker engine remote</tags>
+    </metadata>
+    <files>
+        <file src="build\binaries\Belz.dll" target="lib\net40" />
+        <file src="build\binaries\Belz.pdb" target="lib\net40" />
+        <file src="src\Belz\**\*.cs" target="src" />
+    </files>
+</package>

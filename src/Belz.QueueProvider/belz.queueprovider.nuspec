@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+    <metadata>
+        <id>Belz.QueueProvider</id>
+        <version>1.0.0</version>
+        <authors>Oleksii Glib</authors>
+        <owners>Oleksii Glib</owners>
+        <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
+        <projectUrl>https://github.com/acropolium/Belz</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Belz.QueueProvider is a Queue Provider interface for Belz project</description>
+        <copyright>Copyright 2012</copyright>
+        <dependencies>
+            <dependency id="System.Json" />
+        </dependencies>
+        <tags>parallel worker engine remote queue provider message</tags>
+    </metadata>
+    <files>
+        <file src="build\binaries\Belz.QueueProvider.dll" target="lib\net40" />
+        <file src="build\binaries\Belz.QueueProvider.pdb" target="lib\net40" />
+        <file src="src\Belz.QueueProvider\**\*.cs" target="src" />
+    </files>
+</package>

@@ -1,0 +1,5 @@
+/_ReSharper.Belz/
+*.suo
+*.user
+bin
+obj
